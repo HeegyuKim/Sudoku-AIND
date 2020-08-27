@@ -1,4 +1,1 @@
-// Start a terminal with the '+' button, below.
-// Run ./setup.sh
-// Follow the instructions to get your JWT and then replace the entire
-// contents of this file with the contents of your downloaded JWT file.
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1ZGFjaXR5X2tleSI6IjMwNzIwODU5NCIsImV4cCI6MTYyMDE4NjU3NX0.Xu7YSm9-NutE4Y7VXccFw7LZN-SZU64XgTX5OatvC7k

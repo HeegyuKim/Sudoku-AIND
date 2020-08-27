@@ -81,6 +81,8 @@ class TestNakedTwins(unittest.TestCase):
                         "Your naked_twins function produced an unexpected board.")
 
 
+from utils import display
+
 
 class TestDiagonalSudoku(unittest.TestCase):
     diagonal_grid = '2.............62....1....7...6..8...3...9...7...6..4...4....8....52.............3'
@@ -97,7 +99,12 @@ class TestDiagonalSudoku(unittest.TestCase):
                           'D1': '5'}
 
     def test_solve(self):
-        self.assertEqual(solution.solve(self.diagonal_grid), self.solved_diag_sudoku)
+        solve = solution.solve(self.diagonal_grid)
+        display(solve)
+        print()
+        display(self.solved_diag_sudoku)
+        
+        self.assertEqual(solve, self.solved_diag_sudoku)
 
 if __name__ == '__main__':
     unittest.main()
